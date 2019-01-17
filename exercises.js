@@ -18,6 +18,10 @@ while (i<10){
 
 /*1. Use a while loop and print out a list of numbers from 1 to 10*/
 
+var num = 0;
+while(num < 11){
+	console.log(num += 1)
+}
 
 
 /*2. Use a while loop to create the following message:
