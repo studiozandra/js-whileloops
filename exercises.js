@@ -132,7 +132,15 @@ while(i < 100){
  will purchase a donut as long as you have the sufficient funds.
  *Pass in a number value to invoke your function. Console.log donutBought.
 */ 
-
-
-
-
+var donutPrice = 5;
+var donutBought = 0;
+function buyDonut(budget){
+	while(budget >= donutPrice){  // while the budget is > price...
+		budget -= donutPrice;  // ...keep subtracting price from budget...
+		donutBought++; // ...and increment num of donuts bought.
+		
+	}
+	
+}
+buyDonut(25);  // pass in some radom budget
+console.log('donutBought = ' + donutBought); //console to print it
