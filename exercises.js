@@ -68,8 +68,14 @@ while(i< tvShows.length){
 9 x 3 = 27
 
 */
-
-
+var i = 0;
+// var y = 0
+var num = 3;
+while(i < 9){
+	i++;
+	//var product = ;
+	console.log(i+ ' x 3 = ' + i * num);
+}
 
 
 
