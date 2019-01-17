@@ -69,11 +69,12 @@ while(i< tvShows.length){
 
 */
 var i = 0;
-// var y = 0
+
+
 var num = 3;
 while(i < 9){
 	i++;
-	//var product = ;
+	
 	console.log(i+ ' x 3 = ' + i * num);
 }
 
@@ -105,8 +106,22 @@ devleague homie!
 ...
 ...
 ...*/
+var i = 0;
+
+while(i < 100){
+	i++; 
+	console.log(i);
+	if(i % 3 === 0){
+		console.log("dev");
+
+	 }else if(i%5 === 0){
+	 console.log("devLeauge, homie!")
+	 }else{
+		 console.log(i);
+	 }
 
 
+}
 /*
  * #6
  * Function - buyDonut
